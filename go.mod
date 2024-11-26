@@ -1,5 +1,7 @@
 module github.com/katechun/casbin/v2
 
+replace github.com/casbin/casbin/v2 => ./
+
 require (
 	github.com/bmatcuk/doublestar/v4 v4.6.1
 	github.com/casbin/govaluate v1.2.0
